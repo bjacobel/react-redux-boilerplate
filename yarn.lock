@@ -5369,11 +5369,12 @@ gonzales-pe@^4.2.4:
   dependencies:
     minimist "1.1.x"
 
-google-fonts-complete@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/google-fonts-complete/-/google-fonts-complete-1.2.2.tgz#3ad95d4022a2f278acc41d4539b33a2899e8f76c"
+google-fonts-complete@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/google-fonts-complete/-/google-fonts-complete-2.1.1.tgz#07ff198f821e16ea68f99a7c058f5ed3ad94f86c"
+  integrity sha512-6e7jXyadmW4iHrrmYitcsoyVpcymjndBsgXLeo0XXXbAqU9xhM06OxxJAiPqSrp9Xn2bvBueOTe091lwkKVc1g==
   dependencies:
-    postcss "^4.1.16"
+    postcss "^7.0.18"
 
 got@^6.7.1:
   version "6.7.1"
@@ -8985,14 +8986,14 @@ postcss-extend@^1.0.5:
   dependencies:
     postcss "^5.0.4"
 
-postcss-font-magician@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/postcss-font-magician/-/postcss-font-magician-2.2.1.tgz#ea07124f5fd5548f8a8cd097f5f43e476a91c803"
+postcss-font-magician@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-font-magician/-/postcss-font-magician-3.0.0.tgz#9cbe1bda17f4927de1e82bb90e2581e7826b485a"
+  integrity sha512-PqGk9TeIoWzytZeLW6AtgzuL1sJb0bO0xPr4daI6MEhidqyCMECJmwXIlAS6ypf18y6tR04cDFbLqlQruXQiIA==
   dependencies:
     bootstrap-fonts-complete "^1.0.0"
     directory-fonts-complete "^1.2.0"
-    google-fonts-complete "^1.2.2"
-    postcss "^6.0.22"
+    google-fonts-complete "^2.1.1"
 
 postcss-html@^0.36.0:
   version "0.36.0"
@@ -9274,7 +9275,7 @@ postcss@^6.0.11, postcss@^6.0.18:
     source-map "^0.6.1"
     supports-color "^5.2.0"
 
-postcss@^6.0.13, postcss@^6.0.22, postcss@^6.0.3, postcss@^6.0.9:
+postcss@^6.0.13, postcss@^6.0.3, postcss@^6.0.9:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   dependencies:
@@ -9294,6 +9295,15 @@ postcss@^7.0.14, postcss@^7.0.7:
   version "7.0.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.14.tgz#4527ed6b1ca0d82c53ce5ec1a2041c2346bbd6e5"
   integrity sha512-NsbD6XUUMZvBxtQAJuWDJeeC4QFsmWsfozWxCJPWf3M55K9iu2iMDaKqyoOdTJ1R4usBXuxlVFAIo8rZPQD4Bg==
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
+
+postcss@^7.0.18:
+  version "7.0.35"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
+  integrity sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
