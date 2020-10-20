@@ -44,7 +44,7 @@ jobs:
           aws s3 sync dist s3://${{ steps.config.outputs.ProjectFQDomain }} \
             --acl public-read \
             --cache-control max-age=31536000
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
           name: dist
           path: ./dist
