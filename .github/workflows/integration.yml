@@ -40,7 +40,7 @@ jobs:
       # checkout only needed because codecov wants to know app file structure during upload
       - name: 'Checkout'
         uses: actions/checkout@master
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v2
         with:
           name: coverage
       - uses: codecov/codecov-action@v1

@@ -62,7 +62,7 @@ jobs:
         run: |
           echo "::set-output name=SentryOrg::$(node config SentryOrg)"
           echo "::set-output name=SentryProject::$(node config SentryProject)"
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v2
         with:
           name: dist
       - name: Notify Sentry of deploy
